@@ -19,7 +19,9 @@ function Course() {
           className="text-center text-xl mt-3 relative"
           key={course.id}
         >
+          <label className="text-white">Name : </label>
           <input className="border-2 border-gray-800 mx-10" value={course.name} />
+          <label className="text-white">Description : </label>
           <input
             className="border-2 border-gray-800 "
             value={course.description}
